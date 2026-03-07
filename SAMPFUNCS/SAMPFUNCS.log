@@ -1,0 +1,44 @@
+[22:54:46] 
+SAMPFUNCS v5.4.1-final rel.21 (SA-MP 0.3.7-R1)
+Compiled: Dec 24 2018 03:13:37
+
+Copyright (c) 2013-2018, BlastHack Team <blast.hk>
+
+[22:54:46] Base address: 0x6F510000.
+[22:54:46] Initializing opcodes...
+[22:54:46] Opcodes initialized successfully. Total opcodes: 382.
+[22:54:46] Hook "CTimer::GetRealTimeScale" installed.
+[22:54:46] Hook "CPad::Update" installed.
+[22:54:46] Hook "CCamera::RenderMotionBlur" installed.
+[22:54:46] Hook "CScriptThread::AddScriptToQueue" installed.
+[22:54:46] Hook "CScriptThread::RemoveScriptFromQueue" installed.
+[22:54:46] Hook "CScriptThread::Process" installed.
+[22:54:46] Hook "WinMainLoop" installed.
+[22:54:46] Hook "CLoadingScreen::RenderSplash" installed.
+[22:54:46] Hook "CVehicle::CVehicle" installed.
+[22:54:46] Hook "CVehicle::~CVehicle" installed.
+[22:54:46] Hook "CPed::CPed" installed.
+[22:54:46] Hook "CPed::~CPed" installed.
+[22:54:54] samp.dll base addres: 0x03880000
+[22:54:54] Hook "SAMP: CNetGame::CNetGame" installed.
+[22:54:54] Hook "SAMP: CDialog::Close" installed.
+[22:54:54] Hook "SAMP: QuitGame" installed.
+[22:54:54] Hook "SAMP: CCmdWindow::ProcessInput" installed.
+[22:55:06] Direct3DDevice9 hook installed.
+[22:55:06] Hook "SAMP: RakPeer::HandleRPCPacket" installed.
+[22:55:06] Initializing SAMP data...
+[22:55:06] Info initialized.
+[22:55:06] Pools initialized.
+[22:55:06] Player pool initialized.
+[22:55:06] Vehicle pool initialized.
+[22:55:06] Chat initialized.
+[22:55:06] Input initialized.
+[22:55:06] Death list initialized.
+[22:55:06] Dialog initialized.
+[22:55:06] Misc data initialized.
+[22:55:06] Scoreboard initialized.
+[22:55:06] RakNet initialized.
+[22:55:06] SAMPFUNCS v5.4.1-final rel.21 (SA-MP 0.3.7-R1) completely loaded!
+[22:56:24] Hook "SAMP: CNetGame::~CNetGame" installed.
+[22:56:26] Uninitializing SAMPFUNCS...
+[22:56:26] Exited.

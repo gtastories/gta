@@ -1,0 +1,24 @@
+# Real Skybox by Junior_Djjr - MixMods.com.br
+skytexs
+0, ls_esn           # EXTRASUNNY_LA          
+1, ls_sn            # SUNNY_LA              
+2, ls_esmg          # EXTRASUNNY_SMOG_LA    
+3, cs_cl            # SUNNY_SMOG_LA         
+4, cloudy_1         # CLOUDY_LA             
+5, sf_sn            # SUNNY_SF              
+6, sf_esn           # EXTRASUNNY_SF         
+7, cloudy_1         # CLOUDY_SF             
+8, rainy_1          # RAINY_SF              
+9, cs_cl            # FOGGY_SF              
+10, ds_sn           # SUNNY_VEGAS           
+11, lv_esn          # EXTRASUNNY_VEGAS      
+12, ds_smg          # CLOUDY_VEGAS          
+13, ls_esn          # EXTRASUNNY_COUNTRYSIDE
+14, cs_sn           # SUNNY_COUNTRYSIDE     
+15, cloudy_1        # CLOUDY_COUNTRYSIDE    
+16, rainy_1         # RAINY_COUNTRYSIDE     
+17, lv_esn          # EXTRASUNNY_DESERT     
+18, cs_sn           # SUNNY_DESERT          
+19, ds_smg          # SANDSTORM_DESERT      
+20, stars_1         # night stars
+end

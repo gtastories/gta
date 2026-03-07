@@ -1,0 +1,58 @@
+06/03/2026 22:54:46.278 Log started.
+06/03/2026 22:54:46.278 Unprotecting memory region '.text': 0x00001000 (size: 0x00456000)
+06/03/2026 22:54:46.278 Unprotecting memory region '.rdata': 0x00458000 (size: 0x0004C000)
+06/03/2026 22:54:46.280 Unprotecting memory region '.text': 0x008B1000 (size: 0x0064A000)
+06/03/2026 22:54:46.280 Unloading plugins...
+06/03/2026 22:54:46.280 Loading plugin cleo/FileSystemOperations.cleo
+06/03/2026 22:54:46.283 Loading plugin cleo/IniFiles.cleo
+06/03/2026 22:54:46.285 Loading plugin cleo/IntOperations.cleo
+06/03/2026 22:54:46.287 Started on game of version: SA 1.0 us
+06/03/2026 22:54:46.289 Injecting MenuStatusNotifier...
+06/03/2026 22:54:46.289 Replacing call: 0x0057B9FD
+06/03/2026 22:54:46.289 Injecting DmaFix...
+06/03/2026 22:54:46.289 Replacing call: 0x0053E981
+06/03/2026 22:54:46.289 Injecting TextManager...
+06/03/2026 22:54:46.289 Injecting function at: 0x006A0050
+06/03/2026 22:54:46.289 Injecting SoundSystem...
+06/03/2026 22:54:46.289 Replacing call: 0x007487A8
+06/03/2026 22:54:46.289 Injecting CustomOpcodeSystem...
+06/03/2026 22:54:46.289 Injecting ScriptEngine...
+06/03/2026 22:54:46.290 Replacing call: 0x0046A21B
+06/03/2026 22:54:46.290 Replacing call: 0x0058D552
+06/03/2026 22:54:46.290 Replacing call: 0x0058FCE4
+06/03/2026 22:54:46.290 Replacing call: 0x0053BDD7
+06/03/2026 22:54:46.290 Replacing call: 0x005BA340
+06/03/2026 22:54:46.290 Replacing call: 0x005D4FD7
+06/03/2026 22:54:46.290 Replacing call: 0x005D18F0
+06/03/2026 22:54:46.290 Replacing call: 0x005D14D5
+06/03/2026 22:54:46.290 Injecting function at: 0x004667DB
+06/03/2026 22:54:49.525 Creating main window...
+06/03/2026 22:54:49.554 Found sound device 0: No sound
+06/03/2026 22:54:49.554 Found sound device 1: ML2404 (NVIDIA High Definition Audio)
+06/03/2026 22:54:49.554 Found sound device 2: Línea (Voicemod Virtual Audio Device (WDM))
+06/03/2026 22:54:49.554 Found sound device 3: CABLE Input (VB-Audio Virtual Cable)
+06/03/2026 22:54:49.554 Found sound device 4 (default): Altavoces (Captain 400)
+06/03/2026 22:54:49.554 On system found 5 devices, 5 enabled devices, assuming device to use: 4 (Altavoces (Captain 400))
+06/03/2026 22:54:49.617 SoundSystem initialized
+06/03/2026 22:54:49.617 Floating-point audio supported!
+06/03/2026 22:54:49.617 Audio hardware acceleration disabled (no EAX)
+06/03/2026 22:55:04.265 Scripts exclusively initialized
+06/03/2026 22:55:04.272 Deleting dynamic fxts...
+06/03/2026 22:55:04.272 Cleaning up script data... 0 files, 0 libs, 0 file scans, 0 allocations...
+06/03/2026 22:55:04.272 Searching for cleo scripts
+06/03/2026 22:55:04.272 Loading custom script Al_Planes_1.1.cs...
+06/03/2026 22:55:04.273 Registering custom script named Al_Plan
+06/03/2026 22:55:04.273 Loading custom script ccontrol.cs...
+06/03/2026 22:55:04.273 Registering custom script named ccontro
+06/03/2026 22:55:04.273 Loading custom script WailManual.cs...
+06/03/2026 22:55:04.273 Registering custom script named WailMan
+06/03/2026 22:55:04.273 Loading custom script YelpManual.cs...
+06/03/2026 22:55:04.274 Registering custom script named YelpMan
+06/03/2026 22:55:04.274 Loading custom script ..\modloader\sonidos\dynamic weapon draw sounds\cleo\dynamic weapon draw sound.cs...
+06/03/2026 22:55:04.274 Registering custom script named dynamic
+06/03/2026 22:56:26.992 Closing SoundSystem...
+06/03/2026 22:56:26.992 Freeing BASS library
+06/03/2026 22:56:26.992 SoundSystem closed!
+06/03/2026 22:56:26.992 Deleting fxts...
+06/03/2026 22:56:26.992 Unloading scripts...
+06/03/2026 22:56:26.992 Unregistering custom script named al_planeØë’ì

@@ -1,0 +1,140 @@
+{
+"1.full": {
+		"1": {
+			"size": 0.3,
+			"color": { "red": 255, "green":0 , "blue": 0, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 50, 100, 50, 75 ]
+		},
+		
+		
+		"2": {
+			"size": 0.3,
+			"color": { "red": 255, "green": 255, "blue": 255, "alpha": 128 },
+			"state": 1,
+			"pattern": [ 100, 100, 70, 75 ]
+		},
+		
+		
+		"3": {
+			"size": 0.3,
+			"color": { "red": 255, "green": 0, "blue": 0, "alpha": 128 },
+			"state": 1,
+			"pattern": [ 50, 100, 75 ]
+		},
+		
+		
+		"4": {
+			"size": 0.3,
+			"color": { "red": 255, "green": 255, "blue": 0, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 70, 50, 100 ]
+		},
+		
+		
+		"5": {
+			"size": 0.3,
+			"color": { "red": 255, "green": 0, "blue": 0, "alpha": 128 },
+			"state": 1,
+			"pattern": [ 100, 100 ]
+		},
+		
+		
+		"6": {
+			"size": 0.3,
+			"color": { "red": 255, "green": 255, "blue": 255, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 100, 100 ]
+		},
+		
+		
+		"7": {
+			"size": 0.3,
+			"color": { "red": 255, "green": 0, "blue": 0, "alpha": 128 },
+			"state": 1,
+			"pattern": [ 1000, 1000 ]
+		},
+		
+		
+		"8": {
+			"size": 0.3,
+			"color": { "red": 255, "green": 255, "blue": 255, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 1000, 1000 ]
+		},
+		
+		
+		"9": {
+			"size": 0.3,
+			"color": { "red": 49, "green": 137, "blue": 238, "alpha": 255 },
+			"state": 0,
+			"pattern": [ 50, 100, 250 ]
+		},
+		
+		
+		"10": {
+			"size": 0.3,
+			"color": { "red": 49, "green": 137, "blue": 238, "alpha": 255 },
+			"state": 1,
+			"pattern": [ 75, 100, 150 ]
+		},
+		
+		
+		"11": {
+			"size": 0.3,
+			"color": { "red": 49, "green": 137, "blue": 238, "alpha": 255 },
+			"state": 0,
+			"pattern": [ 75, 100, 75 ]
+		},
+		
+		
+		"12": {
+			"size": 0.3,
+			"color": { "red": 49, "green": 137, "blue": 238, "alpha": 255 },
+			"state": 1,
+			"pattern": [ 100, 100, 75 ]
+		},
+		
+		
+		"13": {
+			"size": 0.3,
+			"color": { "red": 49, "green": 137, "blue": 238, "alpha": 255 },
+			"state": 0,
+			"pattern": [ 75, 50, 75 ]
+		},
+		
+		
+		"14": {
+			"size": 0.3,
+			"color": { "red": 49, "green": 137, "blue": 238, "alpha": 255 },
+			"state": 1,
+			"pattern": [ 95, 100, 250 ]
+		},
+		
+		
+		"15": {
+			"size": 0.3,
+			"color": { "red": 49, "green": 137, "blue": 238, "alpha": 255 },
+			"state": 0,
+			"pattern": [ 50, 100, 250 ]
+		}
+	 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

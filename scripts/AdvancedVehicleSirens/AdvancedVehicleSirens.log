@@ -1,0 +1,59 @@
+Advanced Vehicle Sirens BETA Build 4 by Cake!
+
+Plugin path is: C:\Users\barto\Desktop\GTA Stories\scripts\AdvancedVehicleSirens
+
+Reading initialization configuration from AdvancedVehicleSirens.ini
+Finished reading the configuration!
+San Andreas Multiplayer 0.3.7 R1 registered and running with helper methods!
+Reading siren configuration from sirens\407.json
+Reading siren configuration from sirens\416.json
+Reading siren configuration from sirens\426.json
+Reading siren configuration from sirens\445.json
+Reading siren configuration from sirens\482.json
+Reading siren configuration from sirens\497.json
+Reading siren configuration from sirens\523.json
+Reading siren configuration from sirens\525.json
+Reading siren configuration from sirens\528.json
+Reading siren configuration from sirens\560.json
+Reading siren configuration from sirens\579.json
+Reading siren configuration from sirens\596.json
+Reading siren configuration from sirens\597.json
+Reading siren configuration from sirens\598.json
+Reading siren configuration from sirens\599.json
+Finished reading siren configurations from the sirens folder!
+
+Starting Improved Vehicle Functions (IVF) adaption process...
+
+Reading ImVehFt configuration from sirens\ImVehFt\Chevrolet Tahoe Unmarked SEB.eml
+Current ImVehFt model is 490, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\ENFORCER.eml
+Current ImVehFt model is 427, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\FBI Rancher.eml
+Current ImVehFt model is 490, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\fbiranch.eml
+Current ImVehFt model is 490, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\FBITRUCK.eml
+Current ImVehFt model is 528, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\firela.eml
+Current ImVehFt model is 544, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\firetruck.eml
+Current ImVehFt model is 407, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\Ford Crown vic unmarked SEB.eml
+Current ImVehFt model is 426, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\Ford_FPUI.eml
+Current ImVehFt model is 596, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\HPV.eml
+Current ImVehFt model is 523, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\LVPD.eml
+Current ImVehFt model is 598, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\PREMIER.eml
+Current ImVehFt model is 426, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\RANGER.eml
+Current ImVehFt model is 599, reading pattern data!
+Reading ImVehFt configuration from sirens\ImVehFt\SFPD.eml
+Current ImVehFt model is 597, reading pattern data!
+
+Finished the ImVehFt adaption process!
+
+
+Failed to estabilish a connection to the versions manifest document!

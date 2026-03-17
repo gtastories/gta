@@ -1,0 +1,12 @@
+490            8
+# lights here f3 3c 39 - RED, 02 90 FF - blue
+#  id parent id  R  G  B  A   light type  corona size  shadow size  flash inertia  num switches  starting state  switching time
+#red step
+	1     0      02 90 FF 80       0          0.3           0            50.0            2             0         200 400
+	2     0      FF 00 00 80       0          0.3           0            50.0            1             0         0
+	3     0      FF 00 00 80       0          0.2           0            50.0            2             0         200 400
+	4     0      02 90 FF 80       0          0.2           0            50.0            2             1         200 400
+	5     0      02 90 FF 80       0          0.2           0            50.0            2             1         100 300
+	6     0      FF 00 00 80       0          0.2           0            50.0            2             0         100 300
+	7     0      02 90 FF 80       0          0.3           0            50.0            4             0         50 100 150 200
+	8     0      FF 00 00 80       0          0.3           0            50.0            4             0         100 150 200 250

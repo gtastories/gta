@@ -1,0 +1,114 @@
+01:07:28 [TRACE] (1) client::app: [client\src\app.rs:297] app::initialize()
+01:07:28 [TRACE] (1) client::app: [client\src\app.rs:298] App::new() ->
+01:07:28 [TRACE] (1) client::app: [client\src\app.rs:131] App::new()
+01:07:28 [TRACE] (1) client::app: [client\src\app.rs:135] Audio::new()
+01:07:28 [TRACE] (1) client::app: [client\src\app.rs:139] Manager::new()
+01:07:28 [TRACE] (1) client::app: [client\src\app.rs:143] crate::external::initialize
+01:07:28 [TRACE] (1) client::app: [client\src\app.rs:303] CEF: crate::render::initalize()
+01:07:28 [TRACE] (1) client::render: [client\src\render.rs:68] hooking CEntity::render
+01:07:28 [TRACE] (1) client::render: [client\src\render.rs:94] hooking ok ...
+01:07:28 [TRACE] (2) client::rodio_audio: [client\src\rodio_audio.rs:180] audio_thread start
+01:07:40 [TRACE] (4) client::app: [client\src\app.rs:181] App::initialize_hooks()
+01:07:40 [TRACE] (4) client::app: [client\src\app.rs:182] Trying to hook WndProc.
+01:07:40 [TRACE] (4) client::app: [client\src\app.rs:192] Append WndProc callback.
+01:07:40 [TRACE] (4) client::app: [client\src\app.rs:196] Hooking destroy functions.
+01:07:40 [TRACE] (4) client::app: [client\src\app.rs:218] Initialize done.
+01:07:40 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:547] manager::intialize_cef() cef_running: false
+01:07:40 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:553] PRE cef::initalize()
+01:07:40 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:101] browser::cef::initialize
+01:07:40 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:108] cef_dir: "C:\\Users\\PC 1234\\Desktop\\GTAS Stories\\GTA Stories v2\\GTA Stories\\cef"
+01:07:40 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:119] "C:\\Users\\PC 1234\\Desktop\\GTAS Stories\\GTA Stories v2\\GTA Stories\\cef\\cef.log"
+01:07:40 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:134] PRE cef::initialize. settings.size=240
+01:07:40 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:163] POST cef::initialize. result=1
+01:07:40 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:555] POST cef::initalize()
+01:07:40 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 147.135.93.209:7777
+01:07:40 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(147.135.93.209:7779). Elapsed 11.8827892s
+01:07:40 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
+01:07:40 [TRACE] (4) client::app: [client\src\app.rs:472] Initialized. Elapsed: 11.8833348s
+01:07:40 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:07:40 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 254.9µs
+01:07:43 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:07:43 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:07:43 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 2.5043266s
+01:07:45 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:07:45 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:07:45 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 5.0055212s
+01:07:48 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:07:48 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:07:48 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 7.509626s
+01:07:50 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:07:50 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:07:50 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 10.0132668s
+01:07:53 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:07:53 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:07:53 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 12.5185793s
+01:07:55 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:07:55 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:07:55 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 15.0187631s
+01:07:58 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:07:58 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:07:58 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 17.5208541s
+01:08:00 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:00 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:00 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 20.0235841s
+01:08:03 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:03 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:03 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 22.5239265s
+01:08:05 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:05 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:05 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 25.0285896s
+01:08:08 [TRACE] (5) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:08 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:08 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 27.741275s
+01:08:10 [TRACE] (5) client::network: [client\src\network.rs:404] CEF Network: ConnectionError
+01:08:10 [TRACE] (4) client::app: [client\src\app.rs:522] CEF Network: Timeout
+01:08:11 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 147.135.93.209:7777
+01:08:11 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(147.135.93.209:7779). Elapsed 42.9297541s
+01:08:11 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
+01:08:11 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:11 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 305.8µs
+01:08:14 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:14 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:14 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 2.50445s
+01:08:16 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:16 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:16 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 5.0099332s
+01:08:19 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:19 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:19 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 7.5108496s
+01:08:21 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:21 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:21 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 10.0175267s
+01:08:24 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:24 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:24 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 12.5173142s
+01:08:26 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:26 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:26 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 15.0197607s
+01:08:29 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:29 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:29 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 17.5213077s
+01:08:31 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:31 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:31 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 20.0231717s
+01:08:34 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:34 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:34 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 22.525181s
+01:08:36 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:36 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:36 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 25.0268099s
+01:08:39 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:39 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:39 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 27.5273974s
+01:08:41 [TRACE] (10) client::network: [client\src\network.rs:404] CEF Network: ConnectionError
+01:08:41 [TRACE] (10) client::network: [client\src\network.rs:420] CEF Network: CEF didn't connect. Retrying ...
+01:08:41 [TRACE] (10) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (147.135.93.209:7779)
+01:08:41 [TRACE] (10) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 30.029624s
+01:08:42 [TRACE] (4) client::app: [client\src\app.rs:214] gta::game::on_shutdown calling unitialize
+01:08:42 [TRACE] (4) client::app: [client\src\app.rs:320] app::uninitialize()
+01:08:42 [TRACE] (4) client::app: [client\src\app.rs:323] app::uninitialize call once ->
+01:08:42 [TRACE] (4) client::app: [client\src\app.rs:107] App::drop
+01:08:42 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:561] manager::shutdown_cef() cef_running: true
+01:08:42 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:567] PRE cef::shutdown()
+01:08:42 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:569] POST cef::shutdown()
+01:08:42 [TRACE] (4) client::app: [client\src\app.rs:331] app::quit()

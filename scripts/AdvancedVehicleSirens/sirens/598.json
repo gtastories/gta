@@ -1,0 +1,298 @@
+{
+    "references": {
+        "colors": {
+            "red":    { "red": 255, "green": 0, "blue": 0, "alpha": 150 },
+			"white":  { "red": 255, "green": 255, "blue": 255, "alpha": 150 },
+			"yellow": { "red": 233, "green": 98, "blue": 0, "alpha": 150 },
+			"blue": { "red": 0, "green": 98, "blue": 233, "alpha": 150 },
+			"mass": { "red": 0, "green": 98, "blue": 233, "alpha": 120 }
+	    },
+		
+		"strobe": {
+            "size": 0.3
+	    },
+		
+		"rotator": {
+            "size": 0.4,
+
+            "state": 1,
+
+            "type": "rotator",
+			
+			"inertia": 1,
+
+            "rotator": {
+                "type": "linear"
+		    }
+	    },
+		
+		"strobe2": {
+            "size": 0.3
+	    }
+	},
+
+    "states": {
+        "1. Code 1": {
+			"1": {
+                "color": "red",
+
+                "pattern": [ 350, 50, 50, 50, 50, 50, 100 ],
+
+                "state": 0,
+
+                "reference": "strobe2"				
+			},
+			
+			"2": {
+                "color": "red",
+
+                "pattern": [ 350, 50, 50, 50, 50, 50, 100 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+			
+			"3": {
+                "color": "blue",
+
+                "pattern": [ 300, 300, 150, 300, 300, 250, 150, 200, 250 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+			
+			"4": {
+                "color": "blue",
+
+                "pattern": [ 300, 300, 150, 300, 300, 250, 200, 250, 300 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+			
+			"5": {
+                "color": "blue",
+
+                "pattern": [  ],
+
+                "state": 1,
+
+                "reference": "strobe2"			
+			},
+			
+			"6": {
+                "color": "blue",
+
+                "pattern": [ 300, 300 ],
+
+                "state": 1,
+
+                "reference": "strobe2"			
+			},
+            
+            "7": {
+                "color": "white",
+
+                "pattern": [ 250, 250 ],
+
+                "state": 1,
+
+                "reference": "strobe2"			
+			},
+            
+            "8": {
+                "color": "white",
+
+                "pattern": [ 250, 250 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "9": {
+                "color": "red",
+
+                "pattern": [ 300, 300 ],
+
+                "state": 1,
+
+                "reference": "strobe2"			
+			},
+
+            "10": {
+                "color": "red",
+
+                "pattern": [  ],
+
+                "state": 1,
+
+                "reference": "strobe2"			
+			},
+
+            "11": {
+                "color": "red",
+
+                "pattern": [ 300, 300, 150, 300, 300, 250, 200, 250, 300 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "12": {
+                "color": "red",
+
+                "pattern": [ 300, 300, 150, 300, 300, 250, 150, 200, 250 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "13": {
+                "color": "white",
+
+                "pattern": [ 150, 150 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "14": {
+                "color": "red",
+
+                "pattern": [ 300, 300, 150, 300, 300, 250, 150, 200, 250 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "15": {
+                "color": "red",
+
+                "pattern": [ 300, 300, 150, 300, 300, 250, 200, 250, 300 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "16": {
+                "color": "yellow",
+
+                "pattern": [ 350, 350 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "17": {
+                "color": "yellow",
+
+                "pattern": [ 350, 350 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "18": {
+                "color": "yellow",
+
+                "pattern": [ 350, 350 ],
+
+                "state": 1,
+
+                "reference": "strobe2"			
+			},
+
+            "19": {
+                "color": "yellow",
+
+                "pattern": [ 350, 350 ],
+
+                "state": 1,
+
+                "reference": "strobe2"			
+			},
+
+            "20": {
+                "color": "yellow",
+
+                "pattern": [ 350, 350 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "21": {
+                "color": "yellow",
+
+                "pattern": [ 350, 350 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "22": {
+                "color": "blue",
+
+                "pattern": [ 300, 300, 150, 300, 300, 250, 200, 250, 300 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "23": {
+                "color": "blue",
+
+                "pattern": [ 300, 300, 150, 300, 300, 250, 150, 200, 250 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+            
+            "24": {
+                "color": "white",
+
+                "pattern": [ 150, 150 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "25": {
+                "color": "white",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			},
+
+            "26": {
+                "color": "white",
+
+                "pattern": [  100, 50, 50, 50, 50, 50, 350 ],
+
+                "state": 0,
+
+                "reference": "strobe2"			
+			}
+		}																																																														
+    }
+}		
+

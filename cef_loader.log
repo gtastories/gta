@@ -1,0 +1,225 @@
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+=== d3d9 proxy DllMain ===
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.
+=== d3d9 proxy DllMain ===
+[PROXY] Real d3d9.dll loaded OK.
+[PROXY] First Direct3DCreate9 call — launching loader thread.
+[LOADER] Thread started.
+[LOADER] Waiting for samp.dll ...
+[LOADER] samp.dll detected.
+[LOADER] SetDllDirectoryA -> cef\
+[LOADER] Loading client.dll ...
+[LOADER] client.dll loaded OK.
+[LOADER] Calling cef_client_initialize ...
+[LOADER] cef_client_initialize returned.
+[LOADER] Done.

@@ -1,0 +1,58 @@
+{
+    "references": {
+        "colors": {
+            "red":    { "red": 255, "green": 0, "blue": 0, "alpha": 150 },
+			"white":  { "red": 255, "green": 255, "blue": 255, "alpha": 150 },
+			"yellow": { "red": 233, "green": 98, "blue": 0, "alpha": 150 },
+			"blue": { "red": 0, "green": 98, "blue": 233, "alpha": 150 },
+			"mass": { "red": 0, "green": 98, "blue": 233, "alpha": 120 }
+	    },
+		
+		"strobe": {
+            "size": 0.3
+	    },
+		
+		"rotator": {
+            "size": 0.4,
+
+            "state": 1,
+
+            "type": "rotator",
+			
+			"inertia": 1,
+
+            "rotator": {
+                "type": "linear"
+		    }
+	    },
+		
+		"whiterot": {
+            "size": 0.2,
+
+            "state": 1,
+
+            "type": "rotator",
+			
+			"inertia": 1,
+
+            "rotator": {
+                "type": "linear"
+		    }
+	    }
+	},
+
+    "states": {
+        "1. Code 3": {
+            "1": {
+                "color": "red",
+                
+                "reference": "rotator",
+				
+				"rotator": {
+               
+					"time": 500
+				}
+			}																																			
+		}
+    }
+}

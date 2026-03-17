@@ -1,0 +1,507 @@
+{
+    "references": {
+        "colors": {
+            "red":    { "red": 255, "green": 0, "blue": 0, "alpha": 150 },
+			"white":  { "red": 255, "green": 255, "blue": 255, "alpha": 150 },
+            "yellow": { "red": 233, "green": 98, "blue": 0, "alpha": 150 },
+			"blue": { "red": 0, "green": 98, "blue": 233, "alpha": 150 },
+			"mass": { "red": 0, "green": 98, "blue": 233, "alpha": 120 }
+	    },
+		
+		"strobe": {
+            "size": 0.3
+	    },
+		
+		"rotator": {
+            "size": 0.4,
+
+            "state": 1,
+
+            "type": "rotator",
+			
+			"inertia": 1,
+
+            "rotator": {
+                "type": "linear"
+		    }
+	    },
+		
+		"strobe2": {
+            "size": 0.3
+	    }
+	},
+
+    "states": {
+        "1. Code 1": {
+            "1": {
+                "color": "blue",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+
+                "reference": "strobe"
+            },
+
+            "2": {
+                "color": "red",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "3": {
+                "color": "red",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "4": {
+                "color": "red",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "6": {
+                "color": "white",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "7": {
+                "color": "blue",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "8": {
+                "color": "white",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "9": {
+                "color": "red",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+            
+            "10": {
+                "color": "red",
+
+                "pattern": [450, 50, 50, 50, 50, 50  ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "11": {
+                "color": "blue",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+            
+            "12": {
+                "color": "blue",
+
+                "pattern": [ 100, 400 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "13": {
+                "color": "blue",
+
+                "pattern": [ 200, 300 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "14": {
+                "color": "blue",
+
+                "pattern": [ 300, 200 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "15": {
+                "color": "blue",
+
+                "pattern": [ 400, 100 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "16": {
+                "color": "blue",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "17": {
+                "color": "blue",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "18": {
+                "color": "blue",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "19": {
+                "color": "blue",
+
+                "pattern": [ 130, 210 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "20": {
+                "color": "yellow",
+
+                "pattern": [ 410, 410 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "21": {
+                "color": "yellow",
+
+                "pattern": [ 410, 410 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "22": {
+                "color": "yellow",
+
+                "pattern": [ 410, 410 ],
+				
+                "state": 1,
+				
+                "reference": "strobe"
+            },
+
+            "23": {
+                "color": "yellow",
+
+                "pattern": [ 410, 410 ],
+				
+                "state": 1,
+				
+                "reference": "strobe"
+            },
+
+            "24": {
+                "color": "yellow",
+
+                "pattern": [ 410, 410 ],
+				
+                "state": 1,
+				
+                "reference": "strobe"
+            },
+
+            "25": {
+                "color": "yellow",
+
+                "pattern": [ 410, 410 ],
+				
+                "state": 1,
+				
+                "reference": "strobe"
+            },
+
+            "26": {
+                "color": "yellow",
+
+                "pattern": [ 410, 410 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "27": {
+                "color": "yellow",
+
+                "pattern": [ 410, 410 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "28": {
+                "color": "red",
+
+                "pattern": [ 130, 210 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+            
+            "29": {
+                "color": "red",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "30": {
+                "color": "red",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "31": {
+                "color": "red",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "32": {
+                "color": "red",
+
+                "pattern": [ 400, 100 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+            
+            "33": {
+                "color": "red",
+
+                "pattern": [ 300, 200  ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "34": {
+                "color": "red",
+
+                "pattern": [ 200, 300 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "35": {
+                "color": "red",
+
+                "pattern": [ 100, 400 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "36": {
+                "color": "red",
+
+                "pattern": [  ],
+				
+                "state": 1,
+				
+                "reference": "strobe"
+            },
+
+            "37": {
+                "color": "blue",
+
+                "pattern": [  ],
+				
+                "state": 1,
+				
+                "reference": "strobe"
+            },
+
+            "38": {
+                "color": "blue",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50  ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "39": {
+                "color": "yellow",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "40": {
+                "color": "blue",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350  ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "41": {
+                "color": "yellow",
+
+                "pattern": [ 450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "42": {
+                "color": "yellow",
+
+                "pattern": [  450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "43": {
+                "color": "blue",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "44": {
+                "color": "yellow",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "45": {
+                "color": "blue",
+
+                "pattern": [  450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "46": {
+                "color": "white",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "47": {
+                "color": "blue",
+
+                "pattern": [ 100, 50, 50, 50, 50, 50, 350],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            },
+
+            "48": {
+                "color": "red",
+
+                "pattern": [  450, 50, 50, 50, 50, 50 ],
+				
+                "state": 0,
+				
+                "reference": "strobe"
+            }
+        }
+    }
+}

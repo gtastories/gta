@@ -1,0 +1,19 @@
+407           16
+# lights here
+#  id parent id  R  G  B  A   light type  corona size  shadow size  flash inertia  num switches  starting state  switching time
+    1     0      FF 0 0 FF       0          0.7           3            999.9            2             0         75 150 
+    2     0      FF 0 0 FF       0          0.7           3            999.9            2             0         75 150  
+    3     0      FF 0 0 FF       0          0.7           3            999.9            2             0         75 150 
+    4     0      FF 0 0 FF       0          0.7           3            999.9            2             0         75 150  
+    5     0      FF 0 0 FF       0          0.7           3            999.9            2             0         75 150  
+    6     0      FF 0 0 FF       0          0.7           3            999.9            2             0         75 150  
+    7     0      FF 0 0 FF       2          0.7           0            999.9            2             1         150 300
+    8     0      FF FF FF FF       4          0.7           0            999.9            2             1         120 240  
+    9     0      FF 0 0 FF       4          0.7           0            999.9            2             1         130 260  
+   10     0      FF 0 0 FF       4          0.7           0            999.9            2             1         140 280 
+   11     0      FF 0 0 FF       4          0.7           0            999.9            2             0         140 280
+   12     0      FF 0 0 FF       4          0.7           0            999.9            2             0         130 260
+   13     0      FF FF FF FF       4          0.7           0            999.9            2             0         120 240
+   14     0      FF 0 0 FF       2          0.7           0            999.9            2             0         150 300
+   15     0      FF 0 0 FF       0          0.7           3            999.9            2             0         75 150  
+   16     0      FF 0 0 FF       0          0.7           3            999.9            2             0         75 150  

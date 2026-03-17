@@ -1,0 +1,27 @@
+490            10
+# lights here FF 00 00 - RED, 00 00 FF - blue, FF FF 00 - Yellow
+#  id parent id  R  G  B  A   light type  corona size  shadow size  flash inertia  num switches  starting state  switching time
+    1     0      02 60 FF 80       0          0.4           3            100.0            2             0         50 100
+    2     0      FF 00 00 80       0          0.4           3            100.0            2             0         50 100
+    3     0      02 60 FF 80       0          0.3           0            100.0            2             0         200 400
+    4     0      FF 00 00 80       0          0.3           0            100.0            1             0         0
+    5     0      02 60 FF 80       1          0.3           0            100.0            2             1         200 400
+    6     0      FF 80 00 80       1          0.3           0            100.0            2             0         200 400
+#
+    7     0      02 60 FF 80       0          0.3           0            100.0            2             1         100 200
+    8     0      FF 00 00 80       0          0.3           0            100.0            2             0         100 200
+    9     0      02 60 FF 80       0          0.3           0            100.0            2             1         100 200
+    10     0      FF 00 00 80       0          0.3           0            100.0            2             0         100 200
+
+
+
+
+
+
+
+
+
+
+
+    
+

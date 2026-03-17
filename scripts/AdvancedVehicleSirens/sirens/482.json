@@ -1,0 +1,59 @@
+{
+	"emergency": {
+		"1": {
+			"size": 0.3,
+			"color": { "red": 255, "blue": 0, "green": 98, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 50, 50, 50, 50, 50, 250, 450 ]
+		},
+
+		"2": {
+			"size": 0.3,
+			"color": { "red": 255, "blue": 0, "green": 98, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 50, 50, 50, 50, 50, 250, 450 ]
+		},
+
+		"3": {
+			"size": 0.3,
+			"color": { "red": 255, "blue": 0, "green": 98, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 50, 50, 50, 50, 50, 250, 450 ]
+		},
+
+		"4": {
+			"size": 0.3,
+			"color": { "red": 255, "blue": 0, "green": 98, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 50, 50, 50, 50, 50, 250, 450 ]
+		},
+
+		"5": {
+			"size": 0.3,
+			"color": { "red": 255, "blue": 0, "green": 98, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 50, 50, 50, 50, 50, 250, 450 ]
+		},
+
+		"6": {
+			"size": 0.3,
+			"color": { "red": 255, "blue": 0, "green": 98, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 50, 50, 50, 50, 50, 250, 450 ]
+		},
+
+		"7": {
+			"size": 0.3,
+			"color": { "red": 255, "green": 255, "blue": 255, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 500, 50, 50, 50, 50, 250 ]
+		},
+
+		"8": {
+			"size": 0.3,
+			"color": { "red": 255, "green": 255, "blue": 255, "alpha": 128 },
+			"state": 0,
+			"pattern": [ 500, 50, 50, 50, 50, 250 ]
+		}
+	}	
+}

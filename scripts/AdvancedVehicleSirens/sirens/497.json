@@ -1,0 +1,147 @@
+{
+    "references": {
+        "colors": {
+            "red":    { "red": 255, "blue":   0, "green":   0, "alpha": 128 },
+			"white":  { "red": 255, "blue": 255, "green": 255, "alpha": 128 },
+			"yellow": { "red": 255, "blue": 0, "green": 0, "alpha": 128 },
+			"blue": { "red": 0, "green": 255, "blue": 60, "alpha": 128 }
+	    },
+		
+		"strobe": {
+            "size": 1.1
+	    }
+	},
+
+    "states": {
+        "1.Emergency": {
+            "1": {
+                "color": "red",
+				
+                "pattern": [ ],
+ 
+                "state": 1,
+
+                "reference": "strobe"
+            },
+			
+			"2": {
+                "color": "blue",
+				
+                "pattern": [],
+ 
+                "state": 1,
+
+                "reference": "strobe"
+			},
+			
+			"3": {
+                "color": "yellow",
+				
+                "pattern": [],
+ 
+                "state": 1,
+
+                "reference": "strobe"
+            },
+			
+			"4": {
+                "color": "blue",
+				
+                "pattern": [],
+ 
+                "state": 1,
+
+                "reference": "strobe"
+			},
+
+            "5": {
+                "color": "blue",
+
+                "pattern": [],
+
+                "state": 1,
+
+                "reference": "strobe"
+            },
+
+            "6":{
+                "color":"red",
+                "pattern":[],
+                "state":1,
+                "reference":"strobe"
+            },
+
+            "7":{
+                "color":"blue",
+                "pattern":[600,300],
+                "state":1,
+                "reference":"strobe"
+            },
+            
+            "8":{
+                "color":"red",
+                "pattern":[],
+                "state":1,
+                "reference":"strobe"
+            },
+            
+            "9":{
+                "color":"red",
+                "pattern":[],
+                "state":1,
+                "reference":"strobe"
+            },
+
+            "10":{
+                "color":"red",
+                "pattern":[],
+                "state":1,
+                "reference":"strobe"
+            }
+		},
+				
+        "2.AltEmergency": {
+            "1": {
+                "color": "red",
+				
+                "pattern": [ ],
+ 
+                "state": 1,
+
+                "reference": "strobe"
+			},
+			
+			"3": {
+                "color": "yellow",
+				
+                "pattern": [ 200, 200 ],
+ 
+                "state": 1,
+
+                "reference": "strobe"
+            },
+			
+			"4": {
+                "color": "blue",
+				
+                "pattern": [ 200, 200 ],
+ 
+                "state": 0,
+
+                "reference": "strobe"
+			}
+		},
+				
+        "3.Park": {
+            "1": {
+                "color": "red",
+				
+                "pattern": [ ],
+ 
+                "state": 1,
+
+                "reference": "strobe"
+            }				
+		}				
+    }
+}

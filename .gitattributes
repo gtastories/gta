@@ -15,6 +15,7 @@ modloader/**/SCRIPT filter=lfs diff=lfs merge=lfs -text
 modloader/**/*.img filter=lfs diff=lfs merge=lfs -text
 modloader/**/*.txd filter=lfs diff=lfs merge=lfs -text
 modloader/**/*.dff filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
 /anim/cuts.img filter=lfs diff=lfs merge=lfs -text
 /audio/SFX/SCRIPT filter=lfs diff=lfs merge=lfs -text
 /audio/SFX/SPC_EA filter=lfs diff=lfs merge=lfs -text

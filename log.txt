@@ -1,0 +1,8 @@
+[20/3/2026 17:1:1] Logging initiated
+[20/3/2026 17:1:4] CGraphics::Initialize
+[20/3/2026 17:1:4] Sprite::Sprite
+[20/3/2026 17:1:4] Width: 1920 Height: 1080
+[20/3/2026 17:1:4] Loaded the SA-MP+ logo successfully
+[20/3/2026 17:1:4] Box::Box
+[20/3/2026 17:1:4] D3DXCreateTextureFromFile failed
+[20/3/2026 17:1:4] Couldn't load 'box'

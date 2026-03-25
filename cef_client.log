@@ -1,83 +1,105 @@
-01:26:16 [TRACE] (1) client::app: [client\src\app.rs:297] app::initialize()
-01:26:16 [TRACE] (1) client::app: [client\src\app.rs:298] App::new() ->
-01:26:16 [TRACE] (1) client::app: [client\src\app.rs:131] App::new()
-01:26:16 [TRACE] (1) client::app: [client\src\app.rs:135] Audio::new()
-01:26:16 [TRACE] (1) client::app: [client\src\app.rs:139] Manager::new()
-01:26:16 [TRACE] (1) client::app: [client\src\app.rs:143] crate::external::initialize
-01:26:16 [TRACE] (1) client::app: [client\src\app.rs:303] CEF: crate::render::initalize()
-01:26:16 [TRACE] (1) client::render: [client\src\render.rs:68] hooking CEntity::render
-01:26:16 [TRACE] (1) client::render: [client\src\render.rs:94] hooking ok ...
-01:26:16 [TRACE] (2) client::rodio_audio: [client\src\rodio_audio.rs:180] audio_thread start
-01:26:34 [TRACE] (4) client::app: [client\src\app.rs:181] App::initialize_hooks()
-01:26:34 [TRACE] (4) client::app: [client\src\app.rs:182] Trying to hook WndProc.
-01:26:34 [TRACE] (4) client::app: [client\src\app.rs:192] Append WndProc callback.
-01:26:34 [TRACE] (4) client::app: [client\src\app.rs:196] Hooking destroy functions.
-01:26:34 [TRACE] (4) client::app: [client\src\app.rs:218] Initialize done.
-01:26:34 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:547] manager::intialize_cef() cef_running: false
-01:26:34 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:553] PRE cef::initalize()
-01:26:34 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:101] browser::cef::initialize
-01:26:34 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:108] cef_dir: "C:\\Users\\barto\\Desktop\\GTA Stories\\cef"
-01:26:34 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:119] "C:\\Users\\barto\\Desktop\\GTA Stories\\cef\\cef.log"
-01:26:34 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:134] PRE cef::initialize. settings.size=240
-01:26:34 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:163] POST cef::initialize. result=1
-01:26:34 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:555] POST cef::initalize()
-01:26:34 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 80.75.212.189:7777
-01:26:34 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(80.75.212.189:7779). Elapsed 18.3236313s
-01:26:34 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
-01:26:34 [TRACE] (4) client::app: [client\src\app.rs:472] Initialized. Elapsed: 18.3252102s
-01:26:34 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
-01:26:34 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 680.5µs
-01:26:35 [TRACE] (5) client::network: [client\src\network.rs:394] CEF Network: Timeout
-01:26:35 [TRACE] (4) client::app: [client\src\app.rs:522] CEF Network: Timeout
-01:26:36 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 80.75.212.189:7777
-01:26:36 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(80.75.212.189:7779). Elapsed 20.0712541s
-01:26:36 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
-01:26:36 [TRACE] (14) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
-01:26:36 [TRACE] (14) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 1.0802ms
-01:26:37 [TRACE] (14) client::network: [client\src\network.rs:394] CEF Network: Timeout
-01:26:37 [TRACE] (4) client::app: [client\src\app.rs:522] CEF Network: Timeout
-01:26:39 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 80.75.212.189:7777
-01:26:39 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(80.75.212.189:7779). Elapsed 22.7887375s
-01:26:39 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
-01:26:39 [TRACE] (23) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
-01:26:39 [TRACE] (23) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 580.9µs
-01:26:39 [TRACE] (23) client::network: [client\src\network.rs:394] CEF Network: Timeout
-01:26:39 [TRACE] (4) client::app: [client\src\app.rs:522] CEF Network: Timeout
-01:26:43 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 80.75.212.189:7777
-01:26:43 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(80.75.212.189:7779). Elapsed 27.4739794s
-01:26:43 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
-01:26:43 [TRACE] (32) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
-01:26:43 [TRACE] (32) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 783.6µs
-01:26:44 [TRACE] (32) client::network: [client\src\network.rs:348] CEF Network: RequestJoin (PeerId(1v1))
-01:26:44 [TRACE] (32) client::network: [client\src\network.rs:214] CEF Network: JoinResponse OK. Connected(80.75.212.189:7779, PeerId(1v1))
-01:26:44 [TRACE] (4) client::app: [client\src\app.rs:394] Request to create browser view with id: 0. URL: file:///cef/html/index.html
-01:26:44 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:95] manager::create_browser(0, "file:///cef/html/index.html") render_mode: Renderware
-01:26:44 [TRACE] (4) client::browser::client: [client\src\browser\client.rs:424] crate::utils::client_rect: [1920, 1080]
-01:26:44 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:104] crate::browser::cef::create_browser
-01:26:44 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:187] PRE BrowserHost::create_browser
-01:26:44 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:193] POST BrowserHost::create_browser result 1
-01:26:44 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:107] LifespanHandler::on_after_created. hidden: false
-01:26:45 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:352] LoadHandler::on_load_end. id: 0 status: 0
-01:26:45 [TRACE] (4) client::app: [client\src\app.rs:456] Browser 0 created. Status code: 0. Network available? true
-01:26:46 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
-01:26:52 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
-01:26:53 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
-01:26:57 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
-01:26:57 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
-01:27:14 [TRACE] (32) client::network: [client\src\network.rs:394] CEF Network: Timeout
-01:27:14 [TRACE] (32) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
-01:27:14 [TRACE] (32) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 30.6872502s
-01:27:14 [TRACE] (4) client::app: [client\src\app.rs:522] CEF Network: Timeout
-01:27:14 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:607] internal_close_client
-01:27:14 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:611] remove_view
-01:27:14 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:615] remove_all_streams
-01:27:14 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:619] internal_close_client end
-01:27:14 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:113] LifespanHandler::on_before_close
-01:27:15 [TRACE] (4) client::app: [client\src\app.rs:199] NetGame::on_destroy calling unitialize
-01:27:15 [TRACE] (4) client::app: [client\src\app.rs:320] app::uninitialize()
-01:27:15 [TRACE] (4) client::app: [client\src\app.rs:323] app::uninitialize call once ->
-01:27:15 [TRACE] (4) client::app: [client\src\app.rs:107] App::drop
-01:27:15 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:561] manager::shutdown_cef() cef_running: true
-01:27:15 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:567] PRE cef::shutdown()
-01:27:15 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:569] POST cef::shutdown()
-01:27:15 [TRACE] (4) client::app: [client\src\app.rs:331] app::quit()
+16:19:22 [TRACE] (1) client::app: [client\src\app.rs:297] app::initialize()
+16:19:22 [TRACE] (1) client::app: [client\src\app.rs:298] App::new() ->
+16:19:22 [TRACE] (1) client::app: [client\src\app.rs:131] App::new()
+16:19:22 [TRACE] (1) client::app: [client\src\app.rs:135] Audio::new()
+16:19:22 [TRACE] (1) client::app: [client\src\app.rs:139] Manager::new()
+16:19:22 [TRACE] (1) client::app: [client\src\app.rs:143] crate::external::initialize
+16:19:22 [TRACE] (1) client::app: [client\src\app.rs:303] CEF: crate::render::initalize()
+16:19:22 [TRACE] (1) client::render: [client\src\render.rs:68] hooking CEntity::render
+16:19:22 [TRACE] (1) client::render: [client\src\render.rs:94] hooking ok ...
+16:19:23 [TRACE] (2) client::rodio_audio: [client\src\rodio_audio.rs:180] audio_thread start
+16:19:38 [TRACE] (4) client::app: [client\src\app.rs:181] App::initialize_hooks()
+16:19:38 [TRACE] (4) client::app: [client\src\app.rs:182] Trying to hook WndProc.
+16:19:38 [TRACE] (4) client::app: [client\src\app.rs:192] Append WndProc callback.
+16:19:38 [TRACE] (4) client::app: [client\src\app.rs:196] Hooking destroy functions.
+16:19:38 [TRACE] (4) client::app: [client\src\app.rs:218] Initialize done.
+16:19:38 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:547] manager::intialize_cef() cef_running: false
+16:19:38 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:553] PRE cef::initalize()
+16:19:38 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:101] browser::cef::initialize
+16:19:38 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:108] cef_dir: "C:\\Users\\barto\\Desktop\\GTA Stories\\cef"
+16:19:38 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:119] "C:\\Users\\barto\\Desktop\\GTA Stories\\cef\\cef.log"
+16:19:38 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:134] PRE cef::initialize. settings.size=240
+16:19:38 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:163] POST cef::initialize. result=1
+16:19:38 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:555] POST cef::initalize()
+16:19:38 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 80.75.212.189:7777
+16:19:38 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(80.75.212.189:7779). Elapsed 16.0207584s
+16:19:38 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
+16:19:38 [TRACE] (4) client::app: [client\src\app.rs:472] Initialized. Elapsed: 16.0219047s
+16:19:38 [TRACE] (5) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
+16:19:38 [TRACE] (5) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 612.9µs
+16:19:39 [TRACE] (5) client::network: [client\src\network.rs:394] CEF Network: Timeout
+16:19:39 [TRACE] (4) client::app: [client\src\app.rs:522] CEF Network: Timeout
+16:19:40 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 80.75.212.189:7777
+16:19:40 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(80.75.212.189:7779). Elapsed 17.5988677s
+16:19:40 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
+16:19:40 [TRACE] (14) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
+16:19:40 [TRACE] (14) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 872.6µs
+16:19:40 [TRACE] (14) client::network: [client\src\network.rs:394] CEF Network: Timeout
+16:19:40 [TRACE] (4) client::app: [client\src\app.rs:522] CEF Network: Timeout
+16:19:43 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 80.75.212.189:7777
+16:19:43 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(80.75.212.189:7779). Elapsed 20.1914622s
+16:19:43 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
+16:19:43 [TRACE] (23) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
+16:19:43 [TRACE] (23) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 1.5001ms
+16:19:43 [TRACE] (23) client::network: [client\src\network.rs:394] CEF Network: Timeout
+16:19:43 [TRACE] (4) client::app: [client\src\app.rs:522] CEF Network: Timeout
+16:19:47 [TRACE] (4) client::app: [client\src\app.rs:238] SAMP: CNetGame address: 80.75.212.189:7777
+16:19:47 [TRACE] (4) client::app: [client\src\app.rs:242] Event::Connect(80.75.212.189:7779). Elapsed 24.7601358s
+16:19:47 [TRACE] (4) client::app: [client\src\app.rs:248] NetworkClient::new
+16:19:47 [TRACE] (32) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
+16:19:47 [TRACE] (32) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 797.8µs
+16:19:48 [TRACE] (32) client::network: [client\src\network.rs:348] CEF Network: RequestJoin (PeerId(1v1))
+16:19:48 [TRACE] (32) client::network: [client\src\network.rs:214] CEF Network: JoinResponse OK. Connected(80.75.212.189:7779, PeerId(1v1))
+16:19:48 [TRACE] (4) client::app: [client\src\app.rs:394] Request to create browser view with id: 0. URL: file:///cef/html/index.html
+16:19:48 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:95] manager::create_browser(0, "file:///cef/html/index.html") render_mode: Renderware
+16:19:48 [TRACE] (4) client::browser::client: [client\src\browser\client.rs:424] crate::utils::client_rect: [1920, 1080]
+16:19:48 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:104] crate::browser::cef::create_browser
+16:19:48 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:187] PRE BrowserHost::create_browser
+16:19:48 [TRACE] (4) client::browser::cef: [client\src\browser\cef.rs:193] POST BrowserHost::create_browser result 1
+16:19:48 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:107] LifespanHandler::on_after_created. hidden: false
+16:19:50 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:352] LoadHandler::on_load_end. id: 0 status: 0
+16:19:50 [TRACE] (4) client::app: [client\src\app.rs:456] Browser 0 created. Status code: 0. Network available? true
+16:19:50 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:19:54 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:19:55 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:19:56 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:19:57 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:21:11 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:21:12 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:23:13 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:23:14 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:23:22 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:23:23 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:23:54 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:23:55 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:24:04 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:29:32 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:29:53 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:32:08 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:32:12 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:32:33 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:32:56 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:33:20 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:33:46 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:33:52 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:33:59 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:38:17 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:38:40 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:38:56 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:159] WebClient::on_process_message. browser_id: 0, message: "emit_event"
+16:45:41 [TRACE] (32) client::network: [client\src\network.rs:394] CEF Network: Timeout
+16:45:41 [TRACE] (32) client::network: [client\src\network.rs:334] CEF Network: OpenConnection (80.75.212.189:7779)
+16:45:41 [TRACE] (32) client::network: [client\src\network.rs:335] CEF Network: Elapsed since Network module created 1554.0750864s
+16:45:41 [TRACE] (4) client::app: [client\src\app.rs:522] CEF Network: Timeout
+16:45:41 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:607] internal_close_client
+16:45:41 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:611] remove_view
+16:45:41 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:615] remove_all_streams
+16:45:41 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:619] internal_close_client end
+16:45:41 [TRACE] (41) client::browser::client: [client\src\browser\client.rs:113] LifespanHandler::on_before_close
+16:45:42 [TRACE] (4) client::app: [client\src\app.rs:199] NetGame::on_destroy calling unitialize
+16:45:42 [TRACE] (4) client::app: [client\src\app.rs:320] app::uninitialize()
+16:45:42 [TRACE] (4) client::app: [client\src\app.rs:323] app::uninitialize call once ->
+16:45:42 [TRACE] (4) client::app: [client\src\app.rs:107] App::drop
+16:45:42 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:561] manager::shutdown_cef() cef_running: true
+16:45:42 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:567] PRE cef::shutdown()
+16:45:42 [TRACE] (4) client::browser::manager: [client\src\browser\manager.rs:569] POST cef::shutdown()
+16:45:42 [TRACE] (4) client::app: [client\src\app.rs:331] app::quit()

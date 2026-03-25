@@ -1,27 +1,27 @@
-[01:14:16] [CEF] ═══ CEF Client ASI loaded ═══
-[01:14:16] [CEF] GTA dir: C:\Users\barto\Desktop\games\installergta
-[01:14:16] [CEF] Waiting for samp.dll...
-[01:14:16] [CEF] samp.dll found at 0x03DF0000
-[01:14:16] [CEF] Waiting 5s for SA-MP structures...
-[01:14:21] [CEF] MinHook initialized.
-[01:14:21] [CEF] SA-MP base=0x03DF0000 size=0x2BE000 version=4
-[01:14:21] [CEF] SA-MP entry point=0x000FDB60
-[01:14:21] [CEF] Using hardcoded offsets for version 4
-[01:14:21] [CEF]   AddMessage=0x03E57BE0 InputSend=0x03E59340
-[01:14:21] [CEF]   ChatPtr=0x0409CA10 InputPtr=0x0409CA14
-[01:14:21] [CEF] CChat::AddMessage hooked successfully.
-[01:14:21] [CEF] SA-MP hook: SUCCESS (version=4)
-[01:14:21] [CEF] Ready queued (will send from main thread).
-[01:14:21] [CEF] Ready notification queued (retries every 2s).
-[01:14:21] [CEF] D3D9: GTA window HWND=0x00040934
-[01:14:21] [CEF] D3D9: GTA device=0x0AB712E0 (from 0xC97C28)
-[01:14:21] [CEF] D3D9: vtable=0x0AB7423C
-[01:14:21] [CEF] D3D9: EndScene=0x6F7F6470 Reset=0x716D00F0
-[01:14:21] [CEF] D3D9: Hook EndScene status=0, Reset status=0
-[01:14:21] [CEF] D3D9: WndProc hooked (old=0x6F80AB20)
-[01:14:21] [CEF] D3D9: All hooks installed successfully
-[01:14:21] [CEF] D3D9 hooks: SUCCESS
-[01:14:21] [CEF] DLL search dir: C:\Users\barto\Desktop\games\installergta\cef
-[01:14:21] [CEF] Subprocess path: C:\Users\barto\Desktop\games\installergta\cef\cefsub.exe
-[01:14:21] [CEF] WARNING: cefsub.exe not found at C:\Users\barto\Desktop\games\installergta\cef\cefsub.exe!
-[01:14:21] [CEF] Calling CefInitialize (multi_threaded_message_loop=true)...
+[16:03:28] [CEF] ═══ CEF Client ASI loaded ═══
+[16:03:28] [CEF] GTA dir: C:\Users\barto\Desktop\GTA Stories
+[16:03:28] [CEF] Waiting for samp.dll...
+[16:03:28] [CEF] samp.dll found at 0x03F80000
+[16:03:28] [CEF] Waiting 5s for SA-MP structures...
+[16:03:33] [CEF] MinHook initialized.
+[16:03:33] [CEF] SA-MP base=0x03F80000 size=0x330000 version=1
+[16:03:33] [CEF] SA-MP entry point=0x0031DF13
+[16:03:33] [CEF] Using hardcoded offsets for version 1
+[16:03:33] [CEF]   AddMessage=0x03FE45A0 InputSend=0x03FE5C60
+[16:03:33] [CEF]   ChatPtr=0x0419A0E4 InputPtr=0x0419A0E8
+[16:03:33] [CEF] CChat::AddMessage hooked successfully.
+[16:03:33] [CEF] SA-MP hook: SUCCESS (version=1)
+[16:03:33] [CEF] Ready queued (will send from main thread).
+[16:03:33] [CEF] Ready notification queued (retries every 2s).
+[16:03:33] [CEF] D3D9: GTA window HWND=0x00470B16
+[16:03:33] [CEF] D3D9: GTA device=0x05F1FD40 (from 0xC97C28)
+[16:03:33] [CEF] D3D9: vtable=0x05F22C9C
+[16:03:33] [CEF] D3D9: EndScene=0x6EFE6520 Reset=0x72370710
+[16:03:33] [CEF] D3D9: Hook EndScene status=0, Reset status=0
+[16:03:33] [CEF] D3D9: WndProc hooked (old=0x6EFFABE0)
+[16:03:33] [CEF] D3D9: All hooks installed successfully
+[16:03:33] [CEF] D3D9 hooks: SUCCESS
+[16:03:33] [CEF] DLL search dir: C:\Users\barto\Desktop\GTA Stories\cef
+[16:03:33] [CEF] Subprocess path: C:\Users\barto\Desktop\GTA Stories\cef\cefsub.exe
+[16:03:33] [CEF] WARNING: cefsub.exe not found at C:\Users\barto\Desktop\GTA Stories\cef\cefsub.exe!
+[16:03:33] [CEF] Calling CefInitialize (multi_threaded_message_loop=true)...
